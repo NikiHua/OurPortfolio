@@ -1,0 +1,253 @@
+html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">Our <span>Portfolio</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="top-btn">
+            <a href="#contact" class="h-btn">Contact Us</a>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content" data-aos="fade-in">
+            <h4>Welcome to Our Portfolio</h4>
+            <h1>We're <span>Intan, Ili, Syarah, Nik, Santhiya</span></h1>
+            <p>This is our portfolio for the Multimedia Application final project. Enjoy!</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="main-btn">
+                <a href="#projects" class="btn">View Our Work</a>
+                <a href="#contact" class="btn btn2">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="music">
+            <div class="left-col" data-aos="fade-in">
+                <h1>Enjoy!</h1>
+            </div>
+            <div class="right-col" data-aos="zoom-in-up">
+                <p>Click <span>Here</span> to listen.</p>
+                <img src="Serenity on Arts/Play.png" id="play">
+            </div>
+        </div>
+    </div>
+
+    <audio id="mySong">
+        <source src="Serenity on Arts/BGM.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- About Section -->
+    <section class="about" id="about" data-aos="fade-down">
+        <h2>About <span>Us</span></h2>
+        <div class="about-content">
+            <div class="about-card" data-aos="zoom-in-up">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Expert in building modern web applications using cutting-edge technologies.</p>
+            </div>
+            <div class="about-card" data-aos="zoom-in-up">
+                <i class='bx bx-palette'></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating beautiful and intuitive user interfaces with focus on user experience.</p>
+            </div>
+            <div class="about-card" data-aos="zoom-in-up">
+                <i class='bx bx-trophy'></i>
+                <h3>Digital Solutions</h3>
+                <p>Delivering high-quality digital solutions that help businesses grow.</p>
+            </div>
+            <div class="about-card" data-aos="zoom-in-up">
+                <i class='bx bx-brush'></i>
+                <h3>Design</h3>
+                <p>Creating compelling visual identities that leave a lasting impression.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div  data-aos="fade-down"><h2>Meet Our <span>Team</span></h2></div>
+        <div class="team-content">
+            <div class="team-member" data-aos="zoom-in-up">
+                <img src="Serenity on Arts/Intan.jpg" alt="Team Member">
+                <h3>Intan</h3>
+                <p class="role">Lead Designer</p>
+                <p>Expert in UI/UX design with a passion for creating beautiful interface.</p>
+            </div>
+            <div class="team-member" data-aos="zoom-in-up">
+                <img src="Serenity on Arts/Ili.jpg" alt="Team Member">
+                <h3>Ili</h3>
+                <p class="role">Project Manager and Frontend Developer</p>
+                <p>Leads and coordinates the team to ensure projects are delivered on time and meet expectations.<p>
+                <p>Specialized in React and modern frontend technologies.</p>    
+            </div>
+            <div class="team-member" data-aos="zoom-in-up">
+                <img src="Serenity on Arts/Syarah.jpg" alt="Team Member">
+                <h3>Syarah</h3>
+                <p class="role">Backend Developer</p>
+                <p>Expert in building scalable backend systems and APIs.</p>
+            </div>
+            <div class="team-member" data-aos="zoom-in-up">
+                <img src="Serenity on Arts/Nik.jpg" alt="Team Member">
+                <h3>Nik</h3>
+                <p class="role">Programmer</p>
+                <p>Writes, tests, and maintains code to develop functional and efficient software applications.</p>
+            </div>
+            <div class="team-member" data-aos="zoom-in-up">
+                <img src="Serenity on Arts/Santhiya1.jpg" alt="Team Member">
+                <h3>Santhiya</h3>
+                <p class="role">Programmer</p>
+                <p>Writes, tests, and maintains code to develop functional and efficient software applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div  data-aos="fade-down"><h2>Our <span>Projects</span></h2></div>
+            <div class="project-card" data-aos="zoom-in-up">
+                <img src="Serenity on Arts/Illuminate.jpg" alt="Project">
+                <div class="project-info">
+                    <h3>iluminate</h3>
+                    <p>A full-featured showcase of a creative brilliance and artistic personal portfolio.</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Creative</span>
+                        <span>Illustrative</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i> Code</a>
+                        <a href="https://ilisaufian.wixsite.com/illuminate"><i class='bx bx-link-external'></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="zoom-in-up">
+                <video src="Serenity on Arts/LegoA.mp4" height="100%" width="100%" alt="Project" controls></video>
+                <div class="project-info">
+                    <h3>Lego Animation</h3>
+                    <p>A collaborative task of making a Lego animation.</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Creative</span>
+                        <span>Video</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i> Code</a>
+                        <a href="https://youtu.be/hiH-n92ftco"><i class='bx bx-link-external'></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="zoom-in-up">
+                <video src="Serenity on Arts/CoffeeS.mp4" height="100%" width="100%" alt="Project" controls></video>
+                <div class="project-info">
+                    <h3>Coffee System</h3>
+                    <p>Data structure coding using C++ language to create a system to fulfill its task.</p>
+                    <div class="tech-stack">
+                        <span>System</span>
+                        <span>Coding</span>
+                        <span>Video</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i> Code</a>
+                        <a href="https://youtu.be/OqBvif0Ct9Y"><i class='bx bx-link-external'></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="zoom-in-up">
+                <video src="Serenity on Arts/Arts.mp4" height="100%" width="100%" alt="Project" controls></video>
+                <div class="project-info">
+                    <h3>Serenity on Arts</h3>
+                    <p>A series of vibrant paintings blending the beauty of flowers and spiritual symbolism, illustrating the divine presence in nature and life.</p>
+                    <div class="tech-stack">
+                        <span>Paintings</span>
+                        <span>Acrylic</span>
+                        <span>Video</span>
+                        <span>Images</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i> Code</a>
+                        <a href="https://youtube.com/shorts/j3EOYUsSYAg?feature=share"><i class='bx bx-link-external'></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div  data-aos="fade-down"><h2>Get In <span>Touch</span></h2></div>
+            <div class="contact-content" data-aos="zoom-in-up">
+                <div class="contact-info">
+                </div>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Our Portfolio. All Rights Reserved.</p>
+        <a href="#home" class="scroll-top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init({
+                    offset: 200,
+                    duration: 1000,
+                });
+                
+            </script>
+<script>
+    var mySong = document.getElementById("mySong");
+    var play = document.getElementById("play");
+  
+    play.onclick = function() {
+        if(mySong.paused) {
+            mySong.play();
+            play.src = "Serenity on Arts/Pause.png";
+        }else{
+            mySong.pause();
+            play.src = "Serenity on Arts/Play.png";
+        }
+    }
+  </script>
+</body>
+</html>
